@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>_
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+	138888
+    
+    13600000000
+    
+    13888888888
+    
+    12000000000 
+<body>
+<script>
+	//创建一个正则对象
+	
+	//var reg = new RegExp(正则,修饰符);  第一种写法
+	 //var reg = /正则/g; 第二种写法		
+	 
+	//正则 ： 表达式
+    //修饰符： i 不区分大小写 ，g 全局匹配所有，而非匹配第一个就停止	
+			/*  new Date()
+			  new Array()
+			  new String()
+			  new Number();
+			  new Object();
+				  Math	*/
+	
+	
+	var telReg = /^1[34578][0-9]{9}$/g; //手机验证正则
+	
+	var isMobile = telReg.test(13888888888); //用正则匹配内容是否验证通过 ，返回布尔值
+	
+	alert(isMobile);
+	
+</script>
+</body>
+</html>
